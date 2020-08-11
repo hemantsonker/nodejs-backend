@@ -49,7 +49,7 @@ const withMongoDb = async operations => {
 
 app.get('/hello', (req, res) => {
     res.send('Hey there!!');
-});
+};
 
 app.get('/hello/:name', (req, res) => {
     const name = req.params.name;
